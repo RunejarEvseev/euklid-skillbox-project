@@ -455,6 +455,20 @@
   .container {
     padding: 0 15px;
   }
+  
+  .header {
+    padding-top: 15px;
+    padding-bottom: 16px;
+    margin-bottom: 30px;
+  }
+
+  .header__container {
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    max-width: 110px;
+  }
 
   .header__search {
     top: -15px;
@@ -483,24 +497,6 @@
 
   .hero .container {
     padding: 0 15px;
-  }
-
-  .header {
-    padding-top: 15px;
-    padding-bottom: 16px;
-    margin-bottom: 30px;
-  }
-
-  .header__container {
-    justify-content: space-between;
-  }
-
-  .header__nav {
-    display: none;
-  }
-
-  .header__logo {
-    max-width: 110px;
   }
 
   .hero__content {
