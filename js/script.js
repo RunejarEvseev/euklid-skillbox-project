@@ -41,6 +41,10 @@ var swiper = new Swiper('.hero__swiper', {
     type: 'bullets',
 		clickable: true
   },
+  autoplay: {
+    delay: 5000,
+	disableOnInteraction: false
+  },
 
   // navigation: {
     nextEl: ".swiper-button-next",
