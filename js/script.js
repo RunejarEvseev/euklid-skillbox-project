@@ -44,7 +44,6 @@ var swiper = new Swiper('.hero__swiper', {
 
   autoplay: {
     delay: 5000,
-    disableOnInteraction:	false
   },
 
   navigation: {
