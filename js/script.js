@@ -42,10 +42,10 @@ var swiper = new Swiper('.hero__swiper', {
 		clickable: true
   },
 
-  navigation: {
+  // navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  },
+  }, //
   });
 
 // tabs
