@@ -41,15 +41,16 @@ var swiper = new Swiper('.hero__swiper', {
     type: 'bullets',
 		clickable: true
   },
+
   autoplay: {
     delay: 5000,
-	disableOnInteraction: false
+    disableOnInteraction:	false
   },
 
-  // navigation: {
+  navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
-  }, //
+  },
   });
 
 // tabs
