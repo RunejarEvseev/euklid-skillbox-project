@@ -36,14 +36,11 @@ btnCloseSearch.addEventListener("click", function () {
 var swiper = new Swiper('.hero__swiper', {
   slidesPerView: 1,
   loop: true,
+
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
-		clickable: true
-  },
-
-  autoplay: {
-    delay: 5000,
+    clickable: true
   },
 
   navigation: {
@@ -51,6 +48,7 @@ var swiper = new Swiper('.hero__swiper', {
     prevEl: ".swiper-button-prev",
   },
   });
+
 
 // tabs
 document.querySelectorAll(".work-list__btn").forEach(function (tabsBtn) {
