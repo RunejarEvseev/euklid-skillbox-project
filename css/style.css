@@ -270,7 +270,7 @@ img {
   display: none;
   overflow-y: auto;
   transform: translateX(120%);
-  transition: visibility 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition: visibility 0.3s ease-in-out;
 }
 
 .header__search--active {
